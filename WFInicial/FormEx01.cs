@@ -1,8 +1,8 @@
 namespace WFInicial
 {
-    public partial class Form1 : Form
+    public partial class FormEx01 : Form
     {
-        public Form1()
+        public FormEx01()
         {
             InitializeComponent();
         }
