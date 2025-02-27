@@ -24,14 +24,17 @@ namespace C_RevisãoPrimeiraAula
             {
                 Console.WriteLine("Aprovado"); //cw + tab gera essa linha de código
             }
+
             else if (media < 5)
             {
                 Console.WriteLine("reprovado");
             }
+
             else
             {
                 Console.WriteLine("recuperação");
             }
+
         }
     }
 }
