@@ -28,44 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            label1 = new Label();
-            textBox1 = new TextBox();
+            btnEscolher = new Button();
+            lblDiaDaSemana = new Label();
+            txtDiaSemana = new TextBox();
             SuspendLayout();
             // 
-            // button1
+            // btnEscolher
             // 
-            button1.Location = new Point(165, 135);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnEscolher.Location = new Point(175, 59);
+            btnEscolher.Name = "btnEscolher";
+            btnEscolher.Size = new Size(75, 23);
+            btnEscolher.TabIndex = 0;
+            btnEscolher.Text = "Escolher";
+            btnEscolher.UseVisualStyleBackColor = true;
+            btnEscolher.Click += btnEscolher_Click;
             // 
-            // label1
+            // lblDiaDaSemana
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(87, 39);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "label1";
+            lblDiaDaSemana.AutoSize = true;
+            lblDiaDaSemana.Location = new Point(60, 33);
+            lblDiaDaSemana.Name = "lblDiaDaSemana";
+            lblDiaDaSemana.Size = new Size(84, 15);
+            lblDiaDaSemana.TabIndex = 1;
+            lblDiaDaSemana.Text = "Dia da semana";
             // 
-            // textBox1
+            // txtDiaSemana
             // 
-            textBox1.Location = new Point(165, 31);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 2;
+            txtDiaSemana.Location = new Point(150, 30);
+            txtDiaSemana.Name = "txtDiaSemana";
+            txtDiaSemana.Size = new Size(100, 23);
+            txtDiaSemana.TabIndex = 2;
             // 
             // FormEx02
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(536, 261);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
-            Controls.Add(button1);
+            ClientSize = new Size(320, 139);
+            Controls.Add(txtDiaSemana);
+            Controls.Add(lblDiaDaSemana);
+            Controls.Add(btnEscolher);
             Name = "FormEx02";
             Text = "FormEx02";
             ResumeLayout(false);
@@ -74,8 +75,8 @@
 
         #endregion
 
-        private Button button1;
-        private Label label1;
-        private TextBox textBox1;
+        private Button btnEscolher;
+        private Label lblDiaDaSemana;
+        private TextBox txtDiaSemana;
     }
 }
