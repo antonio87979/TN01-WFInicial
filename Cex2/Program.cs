@@ -6,16 +6,17 @@ namespace Cex2
     {
         static void Main(string[] args)
         {
-            string menu = @"----------------------------
-1-domingo
-2-segunda-feira
-3-terça-feira
-4-quarta-feira
-5-quinta-feira
-6-sexta-feira
-7-sábado 
-----------------------------
-";
+            string menu = 
+                            @"----------------------------
+                            1-domingo
+                            2-segunda-feira
+                            3-terça-feira
+                            4-quarta-feira
+                            5-quinta-feira
+                            6-sexta-feira
+                            7-sábado 
+                            ----------------------------
+                            ";
             Console.WriteLine(menu);
             byte opção = byte.Parse(Console.ReadLine()!);
 
@@ -42,6 +43,7 @@ namespace Cex2
                     Console.WriteLine("sábado");
                     break;
                 case 8:
+                    Console.WriteLine("opção inválida");
                     break;
             }
     }
