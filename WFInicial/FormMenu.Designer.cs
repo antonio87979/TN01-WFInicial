@@ -29,16 +29,17 @@
         private void InitializeComponent()
         {
             btnEx01 = new Button();
-            button2 = new Button();
+            btnEx02 = new Button();
             button3 = new Button();
             button4 = new Button();
-            button5 = new Button();
+            btnEx03 = new Button();
             button1 = new Button();
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
-            button10 = new Button();
+            btnEx11 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // btnEx01
@@ -51,18 +52,19 @@
             btnEx01.UseVisualStyleBackColor = true;
             btnEx01.Click += btnEx01_Click;
             // 
-            // button2
+            // btnEx02
             // 
-            button2.Location = new Point(37, 71);
-            button2.Name = "button2";
-            button2.Size = new Size(116, 23);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnEx02.Location = new Point(249, 33);
+            btnEx02.Name = "btnEx02";
+            btnEx02.Size = new Size(116, 23);
+            btnEx02.TabIndex = 1;
+            btnEx02.Text = "Exercício 02";
+            btnEx02.UseVisualStyleBackColor = true;
+            btnEx02.Click += btnEx02_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(37, 196);
+            button3.Location = new Point(249, 62);
             button3.Name = "button3";
             button3.Size = new Size(116, 23);
             button3.TabIndex = 2;
@@ -71,25 +73,26 @@
             // 
             // button4
             // 
-            button4.Location = new Point(37, 153);
+            button4.Location = new Point(37, 91);
             button4.Name = "button4";
             button4.Size = new Size(116, 23);
             button4.TabIndex = 3;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnEx03
             // 
-            button5.Location = new Point(37, 113);
-            button5.Name = "button5";
-            button5.Size = new Size(116, 23);
-            button5.TabIndex = 4;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            btnEx03.Location = new Point(37, 62);
+            btnEx03.Name = "btnEx03";
+            btnEx03.Size = new Size(116, 23);
+            btnEx03.TabIndex = 4;
+            btnEx03.Text = "Exercício 03";
+            btnEx03.UseVisualStyleBackColor = true;
+            btnEx03.Click += btnEx03_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(37, 225);
+            button1.Location = new Point(249, 91);
             button1.Name = "button1";
             button1.Size = new Size(116, 23);
             button1.TabIndex = 5;
@@ -98,7 +101,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(37, 254);
+            button6.Location = new Point(249, 120);
             button6.Name = "button6";
             button6.Size = new Size(116, 23);
             button6.TabIndex = 6;
@@ -107,7 +110,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(37, 283);
+            button7.Location = new Point(37, 120);
             button7.Name = "button7";
             button7.Size = new Size(116, 23);
             button7.TabIndex = 7;
@@ -116,7 +119,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(37, 312);
+            button8.Location = new Point(37, 149);
             button8.Name = "button8";
             button8.Size = new Size(116, 23);
             button8.TabIndex = 8;
@@ -125,37 +128,48 @@
             // 
             // button9
             // 
-            button9.Location = new Point(37, 341);
+            button9.Location = new Point(249, 149);
             button9.Name = "button9";
             button9.Size = new Size(116, 23);
             button9.TabIndex = 9;
             button9.Text = "button9";
             button9.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnEx11
             // 
-            button10.Location = new Point(37, 370);
-            button10.Name = "button10";
-            button10.Size = new Size(116, 23);
-            button10.TabIndex = 10;
-            button10.Text = "button10";
-            button10.UseVisualStyleBackColor = true;
+            btnEx11.Location = new Point(37, 178);
+            btnEx11.Name = "btnEx11";
+            btnEx11.Size = new Size(116, 23);
+            btnEx11.TabIndex = 10;
+            btnEx11.Text = "Exercício 11";
+            btnEx11.UseVisualStyleBackColor = true;
+            btnEx11.Click += btnEx11_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(249, 178);
+            button2.Name = "button2";
+            button2.Size = new Size(116, 23);
+            button2.TabIndex = 11;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
             // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button10);
+            ClientSize = new Size(474, 257);
+            Controls.Add(button2);
+            Controls.Add(btnEx11);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button1);
-            Controls.Add(button5);
+            Controls.Add(btnEx03);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnEx02);
             Controls.Add(btnEx01);
             Name = "FormMenu";
             Text = "FormMenu";
@@ -165,15 +179,16 @@
         #endregion
 
         private Button btnEx01;
-        private Button button2;
+        private Button btnEx02;
         private Button button3;
         private Button button4;
-        private Button button5;
+        private Button btnEx03;
         private Button button1;
         private Button button6;
         private Button button7;
         private Button button8;
         private Button button9;
-        private Button button10;
+        private Button btnEx11;
+        private Button button2;
     }
 }
